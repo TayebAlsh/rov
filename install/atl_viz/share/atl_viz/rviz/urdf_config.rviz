@@ -7,9 +7,8 @@ Panels:
         - /Image1/Topic1
         - /Image2
         - /Image2/Topic1
-        - /Axes1
       Splitter Ratio: 0.5
-    Tree Height: 265
+    Tree Height: 252
 Visualization Manager:
   Class: ""
   Displays:
@@ -49,35 +48,6 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        actuator1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        actuator2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        actuator3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        boat:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        main_wing:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        paravane:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
       Mass Properties:
         Inertia: false
         Mass: false
@@ -128,13 +98,6 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /cam2/camera/image_raw
       Value: true
-    - Class: rviz_default_plugins/Axes
-      Enabled: true
-      Length: 1
-      Name: Axes
-      Radius: 0.07999999821186066
-      Reference Frame: imu_link
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 80; 80; 80
@@ -174,35 +137,35 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 3.0091285705566406
+      Distance: 15.7471342086792
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.12857873737812042
-        Y: 0.3533889055252075
-        Z: 0.28242114186286926
+        X: -2.8203253746032715
+        Y: 0.7117646932601929
+        Z: 0.14062462747097015
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.35039785504341125
+      Pitch: 0.6453980803489685
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.5454328060150146
+      Yaw: 2.7204339504241943
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1136
+  Height: 1051
   Hide Left Dock: false
   Hide Right Dock: false
   Image:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002a000000416fc0200000004fb000000100044006900730070006c006100790073010000003d0000019d000000c900fffffffb0000000a0049006d00610067006501000001e0000001090000002800fffffffb0000000a0049006d00610067006501000002ef000001640000002800fffffffb0000000a0049006d0061006700650100000332000000cc0000000000000000000004940000041600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
-  Width: 1850
+  QMainWindow State: 000000ff00000000fd0000000100000000000002a0000003c1fc0200000004fb000000100044006900730070006c006100790073010000003d00000190000000c900fffffffb0000000a0049006d00610067006501000001b7000001000000000000000000fb0000000a0049006d00610067006501000001d3000001590000002800fffffffb0000000a0049006d0061006700650100000332000000cc0000002800ffffff0000041c000003c100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Width: 1730
   X: 70
   Y: 27
